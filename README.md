@@ -1,4 +1,8 @@
-# Welcome to PicoGK Runtime
+# Welcome to PicoGK Runtime - Forked for Linux.
+
+Thanks to MichaelP91-dev on the PickGK discussion board who did most of the problem solving.
+
+Use install_runtime.sh to get PicoGKRuntime installed on a ubuntu based system. 
 
 PicoGK Runtime is the C++ backbone to [PicoGK](https://picogk.org) a compact, robust geometry kernel for [Computational Engineering](https://leap71.com/computationalengineering/). 
 
