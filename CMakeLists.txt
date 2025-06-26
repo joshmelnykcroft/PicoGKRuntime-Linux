@@ -89,6 +89,9 @@ endif()
 #without this, the object files are over 4GB and can't be packaged into a .lib
 set( USE_EXPLICIT_INSTANTIATION OFF )
 
+#enable position independent code
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 #use release TBB for both debug and release configs
 set( TBB_DEBUG_SUFFIX "" )
 
