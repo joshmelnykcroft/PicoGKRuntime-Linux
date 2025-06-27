@@ -7,27 +7,28 @@ sudo apt install -y software-properties-common
 sudo apt-add-repository ppa:dotnet/backports -y
 
 sudo apt update
-sudo apt install -y
-wget build-essential
-libx11-dev
-libxrandr-dev
-libxinerama-dev
-libxcursor-dev
-libxi-dev
-libboost-iostreams1.74-dev
-libtbb-dev
-libssl-dev
-libzmq3-dev
-libjemalloc-dev
-libblosc-dev
-doxygen
-cmake-curses-gui
-cmake-qt-gui
-dotnet-sdk-9.0
-libwayland-dev
-wayland-protocols
-pkg-config
-libxkbcommon-dev
+sudo apt install -y \
+wget  \
+build-essential \
+libx11-dev \
+libxrandr-dev \
+libxinerama-dev \
+libxcursor-dev \
+libxi-dev \
+libboost-iostreams1.74-dev \
+libtbb-dev \
+libssl-dev \
+libzmq3-dev \
+libjemalloc-dev \
+libblosc-dev \
+doxygen \
+cmake-curses-gui \
+cmake-qt-gui \
+dotnet-sdk-9.0 \
+libwayland-dev \
+wayland-protocols \
+pkg-config \
+libxkbcommon-dev \
 clang
 
 required_version="3.27.7"
